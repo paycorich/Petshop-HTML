@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Cadastro do Cliente e Pet</h2>
+
+<form onsubmit="return enviarFormulario()">
+
+<h3>Cliente</h3>
+<input type="text" placeholder="Nome" required><br>
+<input type="email" placeholder="Email" required><br>
+<input type="tel" placeholder="Telefone"><br>
+
+<h3>Pet</h3>
+<input type="text" placeholder="Nome do Pet"><br>
+<input type="text" placeholder="Raça"><br>
+
+<h3>Serviço</h3>
+<input type="checkbox"> Banho
+<input type="checkbox"> Tosa <br>
+
+<h3>Agendamento</h3>
+<input type="date"><br>
+<input type="time"><br>
+
+<select>
+  <option>Tele-busca</option>
+  <option>Levar ao local</option>
+</select><br><br>
+
+<button type="submit">Agendar</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
